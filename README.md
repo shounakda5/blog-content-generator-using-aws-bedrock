@@ -32,6 +32,11 @@ A stage named dev is created and deployed to activate the URL that invokes the G
 
 AWS Cloudwatch logs all the relevant data when the event triggers the Lambda function and is a useful tool to debug any errors.
 
+### S3 Storage
+
+<img src="assets/s3.png" alt="S3 Output Storage" width="600" />
+
+As indicated in the Cloudwatch logs, the generated blog content is stored in the S3 bucket as a txt file.
 
 ### POSTMAN API Call
 
